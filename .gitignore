@@ -7,3 +7,4 @@ screenshots/
 vozIA/
 *.log" > .gitignore
 echo ".env" >> .gitignore
+echo "depth_anything/models/*.onnx" >> .gitignore
