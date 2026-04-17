@@ -363,10 +363,8 @@ app.use((error, req, res, next) => {
   });
 });
 
-// 🔹 Iniciar servidor
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
-  console.log(`🚀 Servidor ejecutándose en http://localhost:${PORT}`);
-  console.log(`📁 Directorios verificados: ${directories.join(', ')}`);
-  console.log(`🔑 API Key: ${OPENAI_API_KEY ? 'Configurada' : 'FALTANTE'}`);
+
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Servidor corriendo en puerto ${PORT}`);
 });
