@@ -12,7 +12,7 @@ COPY . .
 
 RUN npm install
 
-RUN pip3 install --upgrade pip
+# 🔥 AQUÍ está la clave
 RUN pip3 install --break-system-packages -r requirements.txt
 
 RUN mkdir -p uploads vozIA screenshots distancia
