@@ -6,3 +6,4 @@ uploads/
 screenshots/
 vozIA/
 *.log" > .gitignore
+echo ".env" >> .gitignore
