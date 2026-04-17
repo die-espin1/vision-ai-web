@@ -1,0 +1,8 @@
+echo "node_modules/
+__pycache__/
+.env
+dist/
+uploads/
+screenshots/
+vozIA/
+*.log" > .gitignore
